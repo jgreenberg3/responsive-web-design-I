@@ -373,6 +373,38 @@ button{
 
 
 @media (max-width: 800px){
+    .title-img{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        vertical-align: baseline;
+    }
+
+    .nav-img{
+        width:100%;
+        max-width: 100%;
+        padding-bottom: 4%;
+    }
+
+    .title-box{
+        
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 10% 0;
+    }
+
+    button{
+        border:1px solid black;
+        background-color: white;
+        padding: 2%;
+        border-radius: 1px;
+    }
+
 
 }
 
